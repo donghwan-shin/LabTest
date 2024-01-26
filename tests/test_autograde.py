@@ -2,7 +2,7 @@ import unittest
 import os.path
 
 
-class Autograder(unittest.TestCase):
+class TestAutograder(unittest.TestCase):
     def test_result(self):
         # check if the file `causal_testing.png` exists
         self.assertEqual(True, os.path.isfile('causal_testing.png'))
